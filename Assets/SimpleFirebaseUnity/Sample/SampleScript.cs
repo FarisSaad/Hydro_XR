@@ -24,7 +24,8 @@ public class SampleScript : MonoBehaviour
     {
         //textMesh.text = "";
         StartCoroutine(Tests());
-        TriggerFireOn();
+        Invoke("TriggerFireOn", 5);
+        
         //TriggerFireOff();
     }
 
