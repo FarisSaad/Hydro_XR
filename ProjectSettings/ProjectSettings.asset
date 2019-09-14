@@ -155,7 +155,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.JunctionX.Hydro_XR
   buildNumber: {}
-  AndroidBundleVersionCode: 19
+  AndroidBundleVersionCode: 20
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0

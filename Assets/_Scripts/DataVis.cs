@@ -14,8 +14,10 @@ public class DataVis : MonoBehaviour
     public float emax = 150f;
 
     float timer = 0;
-    float time = 2f;
+    float time = 0.25f;
 
+    public float debug1;
+    public float debug2;
 
     // Update is called once per frame
     void Update()
@@ -32,11 +34,13 @@ public class DataVis : MonoBehaviour
             {
                 if (i == 0)
                 {
-                    t[i].text = Random.Range(eMin, emax).ToString();
+                    debug1 = Random.Range(eMin, emax);
+                    t[i].text = debug1.ToString();
                 }
                 else
                 {
-                    t[i].text = Random.Range(normalMin, noralmax).ToString();
+                    debug2 = Random.Range(normalMin, noralmax);
+                    t[i].text = debug2.ToString();
                 }
             }
         }   
