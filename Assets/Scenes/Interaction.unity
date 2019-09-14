@@ -6354,31 +6354,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.033
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.078
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.312
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.00000034272668
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_RootOrder
@@ -6390,11 +6390,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.99998
       objectReference: {fileID: 0}
     - target: {fileID: 4032153296153984, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114690586124112288, guid: efe266538a8dcda4dbd04fbff7997053,
+        type: 3}
+      propertyPath: expandMixedRealityCapturePropertySheet
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efe266538a8dcda4dbd04fbff7997053, type: 3}

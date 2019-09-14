@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Interaction.unity
     guid: 7677195ec96f8fb47a520c2ebebbaf33
   - enabled: 0
@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: be4e6df173f3f0640b690a5992b6893d
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/DebugUI.unity
+    guid: 34004346bd7dcbf4fbfd78d2f12e4451
+  - enabled: 1
+    path: Assets/Scenes/Full_Scene.unity
+    guid: b38673d07e5d5874dbf4f4d8f1e52467
   m_configObjects: {}

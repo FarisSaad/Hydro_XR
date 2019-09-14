@@ -308,7 +308,10 @@ public class OVRPlayerController : MonoBehaviour
 			MoveThrottle += (actualXZ - predictedXZ) / (SimulationRate * Time.deltaTime);
 	}
 
-
+    public void SetGravity (int grav)
+    {
+        GravityModifier = grav;
+    }
 
 
 
